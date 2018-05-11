@@ -7,7 +7,7 @@
 
 development: &default
   adapter: postgresql
-  database: myblog_development
+  database: ecommerce
   encoding: unicode
   host: db
   username: postgres
@@ -16,8 +16,8 @@ development: &default
 
 test:
   <<: *default
-  database: myblog_test
+  database: ecommerce
 
 production:
   <<: *default
-  database: myblog_production
+  database: ecommerce

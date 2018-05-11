@@ -34,12 +34,22 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-gem 'rails-assets-jquery', source: 'https://rails-assets.org'
-
+# font-awesome-rails provides the Font-Awesome web fonts and stylesheets
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.4'
 
+# Rails gem of the Bootstrap based admin theme SB Admin 2
 gem 'bootstrap_sb_admin_base_v2', '~> 0.3.6'
 
+# Translations for the devise gem
+gem 'devise-i18n', '~> 1.6', '>= 1.6.2'
+
+# Flexible authentication solution for Rails with Warden
+gem 'devise', '~> 4.4', '>= 4.4.3'
+
+# Jquery
+gem 'rails-assets-jquery', source: 'https://rails-assets.org'
+
+# Notification alert
 gem 'rails-assets-notifyjs', source: 'https://rails-assets.org'
 
 # Reduces boot times through caching; required in config/boot.rb
